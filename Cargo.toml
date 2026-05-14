@@ -1,0 +1,17 @@
+[package]
+name = "lzexe"
+version = "0.1.1"
+edition = "2021"
+description = "LZEXE 0.90/0.91/0.91e decompressor for DOS EXE files"
+license = "MIT"
+repository = "https://github.com/rahulsundaram/lzexe"
+homepage = "https://github.com/rahulsundaram/lzexe"
+documentation = "https://docs.rs/lzexe"
+readme = "README.md"
+keywords = ["lzexe", "dos", "decompress", "exe", "retro"]
+categories = ["compression", "no-std"]
+exclude = [".gitignore", "tests/fixtures/fetch.sh"]
+
+[[bin]]
+name = "unlzexe"
+path = "src/bin/unlzexe.rs"
